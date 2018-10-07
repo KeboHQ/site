@@ -1,0 +1,66 @@
+body {
+    background-color: #f7f7f9;
+    font-size: 18px;
+}
+
+.header {
+    padding: 30px 0px;
+    background-color: #1779ba;
+    color: #ffffff;
+}
+.header .logo {
+    height: 33px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+@media print, screen and (min-width: 40em) {
+    .header .logo {
+        height: 67px;
+    }
+}
+.header .tagline {
+    padding: 40px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.content {
+    padding: 60px 0px 40px 0px;
+    color: #504C4C;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    font-weight: bold;
+}
+.plugins .cell p {
+    padding: 20px;
+    background-color: #efefef;
+    border-bottom: 2px solid #cacaca;
+}
+
+.footer {
+    background-color: #efefef;
+    color: #666666;
+}
+.footer .info {
+    padding: 20px 0px;
+    margin: 0;
+    text-align: center;
+}
+.footer .info span,
+.footer .info a {
+    margin-right: 10px;
+}
+.footer a {
+    color: #444444;
+}
+.footer a:hover,
+.footer a:focus {
+    text-decoration: underline;
+}
